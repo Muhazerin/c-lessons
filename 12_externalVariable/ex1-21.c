@@ -64,7 +64,7 @@ void entab(char s[], char d[], int w) {
 				}
 
 				g = 0;
-				d[h] = s[i];
+				d[h] = s[i];	// dont forget to do normal copy after doing entab process
 				++i;
 				++h;
 			}
